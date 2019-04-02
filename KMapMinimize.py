@@ -1,10 +1,3 @@
-# CSE 101 - IP HW2
-# K-Map Minimization 
-# Name: Pragyan Mehrotra
-# Roll Number: 2018168
-# Section:A
-# Group:8
-
 def minFunc(numVar, stringIn):
 	#parses the input to get the lists in the desired manner
 	def parseInput(x):
@@ -227,6 +220,7 @@ def minFunc(numVar, stringIn):
 	g = 'Simplified Expression: ' + g
 	return (g[:len(g)-4])
 '''
+Sample Input/Output method -
 numVar = int(input("No. of variables: "))
 StringIn = input("Function: ")
 print (minFunc(numVar,StringIn))
